@@ -1,6 +1,9 @@
 *{
 	margin:0;
 	padding:0;
+	background-color:#66FFFF;
+	color:blue;
+	/*line-height:200%;*/
 }
 
 .Main-Menu a{
@@ -15,4 +18,55 @@
 	width:100%;
 	margin:1% auto;
 	text-align:center;
+}
+
+.Main-Title{
+	/*background-color:#00FFFF;*/
+	margin:5% auto;
+	color:#0000FF;
+	text-align:center;
+	font-family:"Times New Roman";
+	font-style:normal;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+.Main-Description{
+	/*background-color:#DDFFFF;*/
+	text-align:center justify;
+	margin:0;
+	border:0;
+	padding:0% 5% 5% 5%;
+}
+
+/*.Main-Description p{
+	line-height:150%;
+}*/
+
+.Contact{
+	margin:0%;
+	border:0%;
+	padding:0% 5% 5% 5%;
+}
+
+.Downloads{
+	margin:0%;
+	border:0%;
+	padding:0% 5% 5% 5%;
+}
+
+.Downloads h2{
+	padding-bottom:2%;
+}
+
+.Downloads p{
+	padding-bottom:2%;
+}
+
+.Downloads h4{
+	padding-bottom:2%;
+}
+
+.Downloads a{
+	padding-bottom:2%;
 }
