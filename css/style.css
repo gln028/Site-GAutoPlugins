@@ -1,9 +1,9 @@
 *{
 	margin:0;
 	padding:0;
-	background-color:#66FFFF;
-	color:blue;
-	/*line-height:200%;*/
+	background-color:#000;
+	color:#66FFFF;
+	line-height:200%;
 }
 
 .Main-Menu a{
@@ -11,7 +11,7 @@
 	font-size:120%;
 	margin:0 1%;
 	padding-right:3px;
-	border-right:3px solid blue;
+	border-right:3px solid #66FFFF;
 }
 
 .Main-Menu{
@@ -34,6 +34,7 @@
 .Main-Description{
 	/*background-color:#DDFFFF;*/
 	text-align:center justify;
+	width:100%;
 	margin:0;
 	border:0;
 	padding:0% 5% 5% 5%;
@@ -44,9 +45,21 @@
 }*/
 
 .Contact{
-	margin:0%;
+	width:100%;
 	border:0%;
 	padding:0% 5% 5% 5%;
+	text-align:center;
+}
+
+.Contact img{
+	width:50%;
+	align:center;
+
+}
+
+.Contact a{
+	font-size:100%;
+	text-align:center;
 }
 
 .Downloads{
@@ -55,18 +68,17 @@
 	padding:0% 5% 5% 5%;
 }
 
-.Downloads h2{
-	padding-bottom:2%;
+
+
+li.plugin-name{
+	font-weight:bold;
+	font-size:120%;
+	padding-top:2%;
 }
 
-.Downloads p{
-	padding-bottom:2%;
-}
+a{
+	font-size:76.923076923%;
+	font-weight:normal;
+	text-decoration:none;
 
-.Downloads h4{
-	padding-bottom:2%;
-}
-
-.Downloads a{
-	padding-bottom:2%;
 }
